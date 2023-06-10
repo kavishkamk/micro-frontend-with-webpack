@@ -13,6 +13,7 @@ module.exports = {
             exposes: {
                 "./CartIndex": "./src/index",
             },
+            shared:["vainglory-hero-names"],
         }),
         new HtmlWebpackPlugin({
             template: "./public/index.html",
